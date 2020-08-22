@@ -1,0 +1,14 @@
+name: GrozaDonate
+main: grozadonate.main.Donation
+version: 1.2
+api-version: 1.13
+author: shefferger
+commands:
+  gd:
+    description: /gd [list|add|remove]
+    aliases: [grozadonate, grozadonat]
+    usage: /gd [list|add|remove|edit]
+  donate:
+    description: /donate
+    aliases: [donat, getdonat, getdonate]
+    usage: /donate
